@@ -1,0 +1,1 @@
+$(function(){var t=window.location.pathname;"/datenschutz.html"!=t&&"/datenschutz"!=t&&"//datenschutz"!=t&&"/privacystatement"!=t||$("p > a").each(function(){var t=$(this).text();"Google Analytics deaktivieren"!=t&&"Disable Google Analytics"!=t||(insert_href="javascript:gaOptout();",$(this).attr("href",insert_href))})});
